@@ -18,7 +18,7 @@ We have to use Bot for Inline Search & Userbot for Searching in Channels. So bot
 <br/>
 
 <p align="left">
-<a href="https://railway.app/deploy?template=https%3A%2F%2Fgithub.com%2FPredatorHackerzZ%2FMessageSearchBot"
+<a href=""
 ">
      <img height="30px" src="https://railway.app/button.svg">
   </a>
@@ -26,3 +26,7 @@ We have to use Bot for Inline Search & Userbot for Searching in Channels. So bot
 </details>
 
 Credits :- @RoyalKrrishna
+
+
+
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/l3LC-s?referralCode=UNSe_M
