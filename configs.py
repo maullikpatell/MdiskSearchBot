@@ -1,7 +1,8 @@
 # (c) @RoyalKrrishna
 
-import os
+import os,re
 
+id_pattern = re.compile(r'^.d+$')
 
 class Config(object):
     API_ID = int(os.environ.get("API_ID", 8143783))
@@ -13,6 +14,7 @@ class Config(object):
     BOT_USERNAME = os.environ.get("BOT_USERNAME", DTG_LINKS_BOT)
     BOT_OWNER = int(os.environ.get("BOT_OWNER", 788277212))
     UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", None)
+    PORT = os.environ.get("PORT", "8080")                 
     ABOUT_BOT_TEXT = """<b>This is Mdisk Search Bot.
 
 🤖 My Name: <a href='https://t.me/DTG_BOTS'>DTG LINKS BOT</a>
